@@ -1,0 +1,53 @@
+/* =============extra large device responsive============ */
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  /* =======nav============ */
+  /* =======nav============ */
+
+  /* =======banner============ */
+  .customBtn {
+    padding: 16px 47px;
+  }
+  /* =======banner============ */
+
+  /* =======work============ */
+  /* =======work============ */
+
+  /* =======project============ */
+  /* =======project============ */
+
+  /* =======feature============ */
+  .feature__card__title {
+    font-size: 22px;
+  }
+  /* =======feature============ */
+
+  /* =======client============ */
+  /* =======client============ */
+
+  /* =======faq============ */
+  /* =======faq============ */
+
+  /* =======inquary============ */
+  .inquaryRight {
+    padding: 96px 80px 48px 80px;
+  }
+  .formInput {
+    padding: 15px 32px;
+  }
+  /* =======inquary============ */
+
+  /* =======blog============ */
+  /* =======blog============ */
+
+  /* =======footer============ */
+  /* =======footer============ */
+}
+/* =============extra large device responsive============ */

@@ -1,0 +1,87 @@
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  /* =======nav============ */
+  .customBtn {
+    padding: 14px 47px;
+  }
+  /* =======nav============ */
+
+  /* =======banner============ */
+  .banner__title {
+    font-size: 48px;
+    line-height: 70px;
+  }
+  .banner__btn {
+    text-wrap: nowrap;
+    padding: 16px 47px;
+  }
+  .view__pricing {
+    text-wrap: nowrap;
+  }
+  /* =======banner============ */
+
+  /* =======work============ */
+  /* =======work============ */
+
+  /* =======project============ */
+  .overlay__content__summary {
+    font-size: 15px;
+  }
+  /* =======project============ */
+
+  /* =======feature============ */
+  .feature__summary {
+    line-height: 60px;
+  }
+  /* =======feature============ */
+
+  /* =======client============ */
+  .clientRight__title {
+    font-size: 31px;
+  }
+  /* =======client============ */
+
+  /* =======faq============ */
+  /* =======faq============ */
+
+  /* =======imquary============ */
+  .inquaryLeft {
+    padding: 96px 77px 0;
+  }
+  .inquaryLeft__title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 70px;
+    color: white;
+    margin-bottom: 24px;
+  }
+  .inquaryLeft__summary {
+    font-size: 14px;
+  }
+  .inquaryRight {
+    padding: 96px 45px 48px 45px;
+  }
+  .inquaryBtn {
+    padding: 12px 0;
+  }
+  /* =======imquary============ */
+
+  /* =======blog============ */
+  /* =======blog============ */
+
+  /* =======footer============ */
+  .contact__title {
+    font-size: 16px;
+  }
+  .contact__info {
+    font-size: 13px;
+  }
+  /* =======footer============ */
+}
