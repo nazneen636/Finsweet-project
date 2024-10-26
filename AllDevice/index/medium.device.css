@@ -1,0 +1,42 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: 1px dashed #ffff;
+  }
+
+  .customNavItem {
+    text-align: center;
+    background-color: var(--yellow_color);
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 10px 0;
+    color: var(--primary_font_color);
+  }
+
+  .customNavLink {
+    color: var(--primary_font_color);
+  }
+  .project__title {
+    font-size: 32px;
+  }
+
+  .inquaryLeft {
+    padding: 96px 48px 127px;
+  }
+
+  .footerRight {
+    display: flex;
+    align-items: center;
+    /* column-gap: 40px; */
+    justify-content: space-between;
+  }
+}

@@ -45,8 +45,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/indexCss/style.css" />
+    <link rel="stylesheet" href="./css/indexCss/responsive.css" />
 
     <title>FinsWeet</title>
   </head>
@@ -68,11 +68,13 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="text-white"
+            ><i class="fa-sharp fa-light fa-bars fa-beat"></i
+          ></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item customNavItem">
               <a
                 class="nav-link customNavLink active"
                 aria-current="page"
@@ -80,18 +82,18 @@
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item customNavItem">
               <a class="nav-link customNavLink" href="#work__part">About us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item customNavItem">
               <a class="nav-link customNavLink" href="#feature__part"
                 >Features</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item customNavItem">
               <a class="nav-link customNavLink" href="#">Pricing</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item customNavItem">
               <a class="nav-link customNavLink" href="#faq__part">FAQ</a>
             </li>
           </ul>
@@ -106,7 +108,7 @@
     <section id="banner">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-5 col-md-6">
+          <div class="col-xl-5 text-center text-xl-start">
             <div class="bannerLeftContent">
               <h1 class="banner__title">
                 Building stellar websites for early startups
@@ -116,12 +118,12 @@
                 eiusmod tempor incididunt.
               </p>
               <div class="row g-xl-0">
-                <div class="col-lg-5">
+                <div class="col-xl-5">
                   <button class="customBtn banner__btn" type="submit">
                     Contact us
                   </button>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                   <button class="view__pricing align-middle">
                     View Pricing<i class="fa-regular fa-arrow-right-long"></i>
                   </button>
@@ -129,7 +131,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-xl-6 mt-5 mt-xl-0">
             <picture>
               <img
                 src="./Image/banner.png"
@@ -147,7 +149,7 @@
       <div class="container">
         <div class="work__wrapper">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-xl-4 text-center text-xl-start">
               <div class="work__left">
                 <h2 class="workLeft__title">How we work</h2>
                 <p class="workLeft__summary">
@@ -160,9 +162,9 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-6 offset-1">
+            <div class="col-xl-6 offset-xl-1 mt-5 mt-xl-0">
               <div class="row workRight__wrapper">
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center text-xl-start">
                   <div class="work__right">
                     <picture>
                       <img src="./Image/pointer1.png" alt="" />
@@ -174,7 +176,7 @@
                     </picture>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center text-xl-start">
                   <div class="work__right">
                     <picture>
                       <img src="./Image/pointer2.png" alt="" />
@@ -186,7 +188,7 @@
                     </picture>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center text-xl-start">
                   <div class="work__right">
                     <picture>
                       <img src="./Image/pointer3.png" alt="" />
@@ -198,7 +200,7 @@
                     </picture>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center text-xl-start">
                   <div class="work__right">
                     <picture>
                       <img src="./Image/pointer4.png" alt="" />
@@ -222,10 +224,10 @@
       <div class="container">
         <div class="project__heading">
           <div class="row justify-content-between align-items-center">
-            <div class="col-lg-5">
+            <div class="col">
               <h2 class="project__title">View our projects</h2>
             </div>
-            <div class="col-lg-2">
+            <div class="col">
               <a href="#" class="project__btn float-end"
                 >View More <i class="fa-regular fa-arrow-right-long"></i
               ></a>
@@ -234,7 +236,7 @@
         </div>
         <div class="project__content">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 mb-4 mb-lg-0">
               <div class="img-holder position-relative">
                 <picture>
                   <img
@@ -267,7 +269,7 @@
             </div>
             <div class="col-lg-4">
               <div class="row gap-4">
-                <div class="col-lg-12">
+                <div class="col-lg-12 mb-4 mb-lg-0">
                   <div class="img-holder position-relative">
                     <picture>
                       <img
@@ -432,15 +434,15 @@
     <section id="client__part">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="client__left">
+          <div class="col-xl-4">
+            <div class="client__left text-center text-xl-start">
               <h2 class="clientLeft__title">What our clients say about us</h2>
               <p class="clientLeft__summary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
               </p>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-xl-8">
             <div class="client__right">
               <h2 class="clientRight__title">
                 "The best agency we’ve worked with so far. They our product and
@@ -666,7 +668,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <div class="blogItem">
               <picture>
                 <img
@@ -690,7 +692,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <div class="blogItem">
               <picture>
                 <img
@@ -714,7 +716,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col mt-5 mt-lg-0 col-lg-4">
             <div class="blogItem">
               <picture>
                 <img
@@ -748,7 +750,7 @@
       <div class="footerTop">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6 col-xl-5">
               <div class="footerLeft">
                 <picture>
                   <img src="./Image/logo.png" alt="./Image/logo.png" />
@@ -775,7 +777,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 offset-1">
+            <div class="col-lg-3 offset-lg-1">
               <div class="footerRight">
                 <h2 class="footerRight__title">Lets Talk!</h2>
                 <div class="footerRight__icon">
