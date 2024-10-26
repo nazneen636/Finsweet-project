@@ -486,7 +486,7 @@ body {
   padding: 115px 0 141px;
 }
 .inquaryLeft {
-  background-image: url(../Image/inquary/inquaryLeft.png);
+  background-image: url(../../Image/inquary/inquaryLeft.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
