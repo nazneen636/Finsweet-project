@@ -450,10 +450,10 @@ body {
   margin-top: 16px;
 }
 .accordion-button::after {
-  background-image: url("../Image/plus.png");
+  background-image: url("../../Image/plus.png");
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../Image/cross.png");
+  background-image: url("../../Image/cross.png");
 }
 .faq__no {
   color: #2405f2;
